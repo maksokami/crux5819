@@ -52,11 +52,11 @@ announcements:
   - Send announcements to bvl2clerk@gmail.com
 
 posters:
-  - "https://sugar-land-2nd-ward-programs.github.io/Stake%20Monthly%20Flyer.jpg"
-  - "https://sugar-land-2nd-Ward-Programs.github.io/Houston%20South%20Stake%20-%20Save%20the%20Date.jpg"
-  - "https://sugar-land-2nd-Ward-Programs.github.io/Music%20Survey!.jpg"
-  - "https://sugar-land-2nd-Ward-Programs.github.io/Choir%20Practice%20Dates%20-%20Updated.jpg"
-  - "https://sugar-land-2nd-Ward-Programs.github.io/Christmas%202024%20Save%20Date-Join.jpg"
+  - "./img/Stake%20Monthly%20Flyer.jpg"
+  - "./img/Houston%20South%20Stake%20-%20Save%20the%20Date.jpg"
+  - "./img/Music%20Survey!.jpg"
+  - "./img/Choir%20Practice%20Dates%20-%20Updated.jpg"
+  - "./img/Christmas%202024%20Save%20Date-Join.jpg"
 
 quote_of_the_month:
   quote: "The only limit to our realization of tomorrow is our doubts of today."
