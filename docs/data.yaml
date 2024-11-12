@@ -52,11 +52,11 @@ announcements:
   - Send announcements to bvl2clerk@gmail.com
 
 posters:
-  - "./img/Stake%20Monthly%20Flyer.jpg"
-  - "./img/Houston%20South%20Stake%20-%20Save%20the%20Date.jpg"
-  - "./img/Music%20Survey!.jpg"
-  - "./img/Choir%20Practice%20Dates%20-%20Updated.jpg"
-  - "./img/Christmas%202024%20Save%20Date-Join.jpg"
+  - "https://sugar-land-2nd-ward-programs.github.io/Stake%20Monthly%20Flyer.jpg"
+  - "https://sugar-land-2nd-Ward-Programs.github.io/Houston%20South%20Stake%20-%20Save%20the%20Date.jpg"
+  - "https://sugar-land-2nd-Ward-Programs.github.io/Music%20Survey!.jpg"
+  - "https://sugar-land-2nd-Ward-Programs.github.io/Choir%20Practice%20Dates%20-%20Updated.jpg"
+  - "https://sugar-land-2nd-Ward-Programs.github.io/Christmas%202024%20Save%20Date-Join.jpg"
 
 quote_of_the_month:
   quote: "The only limit to our realization of tomorrow is our doubts of today."
@@ -78,11 +78,11 @@ links:
   - title: "Let the missionaries know when you are available to help teach"
     url: https://www.youtube.com/watch?v=0_Ntv6zQ70M&authuser=1
   - title: "Get started with Temple and Family History work"
-    url: https://sugar-land-2nd-ward-programs.github.io/TempleandFamilyHistoryGettingStarted.html
+    url: ./temple-and-family-history.html
   - title: "See to Succeed a Houston South Stake service project"
-    url: https://sugar-land-2nd-ward-programs.github.io/TempleandFamilyHistoryGettingStarted.html
+    url: ./temple-and-family-history.html
   - title: "Sign up to feed the missionaries"
-    url: https://sugar-land-2nd-ward-programs.github.io/TempleandFamilyHistoryGettingStarted.html
+    url: ./temple-and-family-history.html
   - title: "Sign up to prepare a meal with Fort Bend Family Promise"
     url: https://www.signupgenius.com/go/10c0e4baca82ea7fb6-helping4#
   - title: "Help at secondmile.org"
