@@ -1,0 +1,106 @@
+unit: "Sugar Land 2nd Ward"
+meeting_cover_img: 3 
+test_meeting_type: "sacrament" # Auto-calculated. Uncomment for test purposes only. Acceptable values: scarament, testimony, primary, easter, christmas, stakeconference
+officers:
+  - "Presiding": "Bishop Joey Powell"
+  - "Conducting:": "Bishop Joey Powell"
+hymns:
+  - descr: "Opening hymn"
+    number: 3
+  - descr: "Scarment Hymn"
+    number: 5
+  - descr: "Closing Hymn"
+    number: 7
+meeting_sacramanet:
+  title: "Sacrament Meeting"
+  program:
+      - type: "speaker"
+        name: "John Wick"
+    
+      - type: "music"
+        title: "Come ye... " #Music number
+        description: "Nan and Ann" #Musicians
+    
+      - type: "speaker"
+        name: "Reuben Sams"
+    
+      - type: "custom"
+        title: "Something else"
+        description: "by Mike"
+meeting_testimony:
+  title: "Fast and Testimony Meeting"
+  program:
+      - type: "custom"
+        title: "Bearing of Testimonies"
+        description: ""
+meeting_primary:
+  title: "Primary Meeting"
+  program:
+      - type: "custom"
+        title: "Custom text"
+        description: "Custom text"
+meeting_easter:
+  title: "Easter Meeting"
+  program:
+      - type: "custom"
+        title: "Custom text"
+        description: "Custom text"
+meeting_christmas:
+  title: "Christmas Meeting"
+  program:
+      - type: "custom"
+        title: "Custom text"
+        description: "Custom text"
+meeting_stakeconference:
+  title: "Stake Conference"
+  program:
+      - type: "custom"
+        title: "Custom text"
+        description: "Custom text"
+      
+announcements:
+  - "The sister missionaries have a new phone number: 346-901-8717"
+  - Volleyball Wednesdays - Come join us on Wednesdays at 9PM and have fun!!!
+  - November 1st & 2nd - Fathers, Sons & Brethren Camp at Long Acres Ranch 2335 Richmond Pkwy
+  - Arrive any time after 4PM, Bring your own dinner, Campfire Programa 8:30 PM
+  - Saturday breakfast provided, Sign Online wair - Link to follow.
+  - Send announcements to bvl2clerk@gmail.com
+
+posters: # Upload picuters to the GitHub docs/img/ folder. Avoid spaces in the picture filenames.
+  - "./img/Stake%20Monthly%20Flyer.jpg"
+  - "./img/Houston%20South%20Stake%20-%20Save%20the%20Date.jpg"
+  - "./img/Music%20Survey!.jpg"
+  - "./img/Choir%20Practice%20Dates%20-%20Updated.jpg"
+  - "./img/Christmas%202024%20Save%20Date-Join.jpg"
+
+calendar:
+  - type: temple # Auto-calculated. Remove or comment this line to hide the next Ward temple day
+  - type: cleaning # Auto-calculated. Remove or comment this line to hide the building cleaning schedule
+  - type: custom
+    title: "Peanut Butter Factory Shift"
+    description: "3:15 AM, Saturday, October 26, Hafer Rd."
+
+links:
+  - title: "The Light the World Giving Machines are Coming"
+    url: https://www.youtube.com/watch?v=0_Ntv6zQ70M&authuser=1
+  - title: "Watch the Light the World Video"
+    url: https://www.youtube.com/watch?v=0_Ntv6zQ70M&authuser=1
+  - title: "Respond to the Stake Musical Talent Survey"
+    url: https://www.youtube.com/watch?v=0_Ntv6zQ70M&authuser=1
+  - title: "Let the missionaries know when you are available to help teach"
+    url: https://www.youtube.com/watch?v=0_Ntv6zQ70M&authuser=1
+  - title: "Get started with Temple and Family History work"
+    url: ./temple-and-family-history.html
+  - title: "See to Succeed a Houston South Stake service project"
+    url: ./temple-and-family-history.html
+  - title: "Sign up to feed the missionaries"
+    url: ./temple-and-family-history.html
+  - title: "Sign up to prepare a meal with Fort Bend Family Promise"
+    url: https://www.signupgenius.com/go/10c0e4baca82ea7fb6-helping4#
+  - title: "Help at secondmile.org"
+    url: https://www.signupgenius.com/go/10c0e4baca82ea7fb6-helping4#
+
+
+quote_of_the_month:
+  quote: "The only limit to our realization of tomorrow is our doubts of today."
+  author: "Franklin D. Roosevelt"
