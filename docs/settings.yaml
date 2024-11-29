@@ -1,0 +1,207 @@
+unit: "Sugar Land 2nd Ward"
+meeting_cover_img: Nativity1
+meeting_type: "sacrament" # Auto-calculated. Uncomment for tests or overrides only. Acceptable values: sacrament, testimony, primary, easter, ward, christmas, stake, generalconference
+officers:
+  - "Presiding": "Bishop Joey Powell"
+  #- "Presiding": "President Travis Bird"
+  #- "Presiding": "President Mike Kennington"
+  #- "Presiding": "President Ernie Carrasquillo"
+  #- "Presiding": "Brother Jared Draney"
+  #- "Presiding": "Brother Brent Leavitt"
+  #- "Conducting": "Bishop Joey Powell"
+  - "Conducting": "Brother Jared Draney"
+  #- "Conducting": "Brother Brent Leavitt"
+hymns:
+  opening:
+      number: 3
+  sacrament:
+      number: 5
+  intermediate:
+      number: 15
+  closing:
+      number: 7
+meeting_sacrament:
+  title: "Sacrament Meeting"
+  program:
+      - type: "speaker"
+        name: "John Wick"
+
+      - type: "speaker"
+        name: "John Wick"
+
+      - type: intermediate_hymn
+    
+      #- type: "music"
+      #  title: "Come ye... " #Music number
+      #  description: "Nan and Ann" #Musicians
+    
+      - type: "speaker"
+        name: "Reuben Sams"
+    
+      - type: custom
+        title: "Something else"
+        description: "by Mike's"
+        
+meeting_testimony:
+  title: "Fast and Testimony Meeting"
+  program:
+      - type: custom
+        title: "Bearing of Testimonies"
+        description: ""
+
+
+meeting_ward:
+  title: "Ward Conference"
+  program:
+
+      - type: "speaker"
+        name: "John Wick"
+
+      - type: intermediate_hymn
+    
+      - type: "music"
+        title: "Come ye saints... " #Music number
+        description: "by Nan and Ann" #Musicians
+    
+      - type: "speaker"
+        name: "Reuben Sams"
+
+meeting_easter:
+  title: "Easter Service"
+  program:
+
+      - type: "speaker"
+        name: "John Wick"
+
+      - type: "speaker"
+        name: "John Wick"
+
+      #- type: intermediate_hymn
+    
+      - type: "music"
+        title: "Come ye saints... " #Music number
+        description: "by Nan and Ann" #Musicians
+    
+      - type: "speaker"
+        name: "Reuben Sams"
+
+      - type: hymn
+        hymn: closing
+
+#meeting_christmas:
+#  title: "Christmas Meeting"
+#  program:
+#      - type: custom
+#        title: "Custom text"
+#        description: "Custom text"
+
+meeting_primary:
+  title: "Primary Program"
+  program:
+      - type: custom
+        title: "Primary Program"
+        description: |
+          Words and Music Testifying of the Book of Mormon, Another Testament of Jesus Christ
+          <br>Directed by Dawnette Moore, Accompanied by Dana Blackburn
+          <br>Primary Choir with
+          <br>Porter Wrightman, Maggie Moore, Ryan Boyer, Livia Moore, Evangelina Garcia, Theodore Rellaford, Boston Robinson, Piper Wrightman, Bella Moore, Sebastian Garcia, Gresham Robinson, Eliza Moore, Leonor Chen, Ioanna Ozomah, Dylan Moore, Henrie Rellaford
+
+      - type: custom
+        title: "Concluding remarks"
+        description: "Bishop Joey Powell"
+
+meeting_stake:
+  title: "Stake Conference: Houston Texas South Stake"
+  program:
+      - type: custom
+        title: "Leadership Session, Saturday 4:00-5:45 pm"
+        description: |
+          All members of Stake and Ward Councils and their presidencies, secretaries, and clerks are invited to attend.
+          <br>This includes: Bishoprics; Elders quorum presidencies; Aaronic Priesthood quorum and Young Women class advisers; Relief Society, Young Women, Primary and Sunday School presidencies, and secretaries.
+          <br>In-person at Lexington
+
+      - type: custom
+        title: "Adult Session, Saturday 7:00-8:45 pm"
+        description: "All adults. <br>In-person at Lexington"
+
+      - type: custom
+        title: "Leadership Session, Sunday 10:00 am - 12:00 pm"
+        description: "In-person at Lexington. <br>Via Zoom at Sienna and Rosenberg buildings"
+
+meeting_generalconference:
+  title: "General Conference"
+  program:
+      - type: custom
+        title: "Join General Conference"
+        description:  |
+         Saturday Morning Session - 11:00 am CDT
+         <br>Saturday Afternoon Session - 3:00 pm CDT
+         <br>Saturday Evening Session - 7:00 pm CDT
+         <br>Sunday Morning Session - 11:00 am CDT
+         <br>Sunday Afternoon Session - 3:00 pm CDT
+
+
+      - type: url
+        title: "Watch and listen online"
+        url: https://www.churchofjesuschrist.org/feature/general-conference?lang=eng
+
+      
+announcements:
+  - "The sister missionaries have a new phone number: 346-901-8717"
+  - Volleyball Wednesdays - Come join us on Wednesdays at 9PM and have fun!!!
+  - Send announcements to bvl2clerk@gmail.com
+
+posters: # Upload picuters to the GitHub docs/img/ folder. Avoid spaces in the picture filenames.
+  - "./posters/Bonner-family-concert.png"
+  - "./posters/Houston%20South%20Stake%20-%20Save%20the%20Date.jpg"
+  - "./posters/Christmas%202024%20Save%20Date-Join.jpg"
+
+ymns:
+  opening:
+      number: 3
+  sacrament:
+      number: 5
+  intermediate:
+      number: 15
+  closing:
+
+calendar:
+  temple_day: # Auto-calculated. Remove or comment this line to hide the next Ward temple day
+  cleaning: # Auto-calculated. Remove or comment this line to hide the building cleaning schedule
+  custom:
+    - title: "Peanut Butter Factory Shift"
+      description: "3:15 AM, Saturday, October 26, Hafer Rd."
+
+#calendar:
+#  - type: temple 
+#  - type: cleaning 
+#  - type: custom
+#    title: "Peanut Butter Factory Shift"
+#    description: "3:15 AM, Saturday, October 26, Hafer Rd."
+
+links:
+  - title: "Sign up for the Christmas Party on December 7"
+    url: https://www.signupgenius.com/go/10C0448A9A82EAB9-53466299-christmas
+  - title: "The Light the World Giving Machines are Coming"
+    url: https://www.youtube.com/watch?v=0_Ntv6zQ70M&authuser=1
+  - title: "Watch the Light the World Video"
+    url: https://www.youtube.com/watch?v=0_Ntv6zQ70M&authuser=1
+  - title: "Respond to the Stake Musical Talent Survey"
+    url: https://www.youtube.com/watch?v=0_Ntv6zQ70M&authuser=1
+  - title: "Let the missionaries know when you are available to help teach"
+    url: https://www.youtube.com/watch?v=0_Ntv6zQ70M&authuser=1
+  - title: "Get started with Temple and Family History work"
+    url: ./temple-and-family-history.html
+  - title: "See to Succeed a Houston South Stake service project"
+    url: ./temple-and-family-history.html
+  - title: "Sign up to feed the missionaries"
+    url: ./temple-and-family-history.html
+  - title: "Sign up to prepare a meal with Fort Bend Family Promise"
+    url: https://www.signupgenius.com/go/10c0e4baca82ea7fb6-helping4#
+  - title: "Help at secondmile.org"
+    url: https://www.signupgenius.com/go/10c0e4baca82ea7fb6-helping4#
+
+
+quote_of_the_month:
+  quote: "The only limit to our realization of tomorrow is our doubts of today."
+  author: "Franklin D. Roosevelt"
