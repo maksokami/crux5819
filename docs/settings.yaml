@@ -1,6 +1,6 @@
 unit: "Sugar Land 2nd Ward"
-meeting_cover_img: Nativity1
-meeting_type: "sacrament" # Auto-calculated. Uncomment for tests or overrides only. Acceptable values: sacrament, testimony, primary, easter, ward, christmas, stake, generalconference
+meeting_cover_img: Nativity1 # Get alias from lookups/artlinks or from the arlinks web page
+#meeting_type: "sacrament" # Auto-calculated. Uncomment for tests or overrides only. Acceptable values: sacrament, testimony, primary, easter, ward, christmas, stake, generalconference
 officers:
   - "Presiding": "Bishop Joey Powell"
   #- "Presiding": "President Travis Bird"
@@ -48,7 +48,6 @@ meeting_testimony:
       - type: custom
         title: "Bearing of Testimonies"
         description: ""
-
 
 meeting_ward:
   title: "Ward Conference"
@@ -145,7 +144,6 @@ meeting_generalconference:
         title: "Watch and listen online"
         url: https://www.churchofjesuschrist.org/feature/general-conference?lang=eng
 
-      
 announcements:
   - "The sister missionaries have a new phone number: 346-901-8717"
   - Volleyball Wednesdays - Come join us on Wednesdays at 9PM and have fun!!!
@@ -156,28 +154,12 @@ posters: # Upload picuters to the GitHub docs/img/ folder. Avoid spaces in the p
   - "./posters/Houston%20South%20Stake%20-%20Save%20the%20Date.jpg"
   - "./posters/Christmas%202024%20Save%20Date-Join.jpg"
 
-ymns:
-  opening:
-      number: 3
-  sacrament:
-      number: 5
-  intermediate:
-      number: 15
-  closing:
-
 calendar:
   temple_day: # Auto-calculated. Remove or comment this line to hide the next Ward temple day
   cleaning: # Auto-calculated. Remove or comment this line to hide the building cleaning schedule
   custom:
     - title: "Peanut Butter Factory Shift"
       description: "3:15 AM, Saturday, October 26, Hafer Rd."
-
-#calendar:
-#  - type: temple 
-#  - type: cleaning 
-#  - type: custom
-#    title: "Peanut Butter Factory Shift"
-#    description: "3:15 AM, Saturday, October 26, Hafer Rd."
 
 links:
   - title: "Sign up for the Christmas Party on December 7"
@@ -200,7 +182,6 @@ links:
     url: https://www.signupgenius.com/go/10c0e4baca82ea7fb6-helping4#
   - title: "Help at secondmile.org"
     url: https://www.signupgenius.com/go/10c0e4baca82ea7fb6-helping4#
-
 
 quote_of_the_month:
   quote: "The only limit to our realization of tomorrow is our doubts of today."
